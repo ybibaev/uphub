@@ -8,7 +8,7 @@ from tqdm import tqdm
 FILE_NAME = "file.jpg"
 THUMB_NAME = "-thumb.jpg"
 COLLECTION_DIR = "collection"
-TARGET_DIR = "thumb"
+TARGET_DIR = "temp"
 THUMB_SIZE = [256, 144]
 MAX_LENGTH_NAME = 5
 
@@ -46,10 +46,6 @@ if __name__ == "__main__":
 
     if not os.path.exists(collection_path):
         os.mkdir(collection_path, mode=0o777)
-
-    # probably need remove
-    if not os.path.exists(target_path):
-        os.mkdir(target_path, mode=0o777)
 
     count = 0
     items_list = (
