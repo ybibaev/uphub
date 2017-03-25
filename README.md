@@ -1,6 +1,7 @@
 # UPHUB
 Replaces screenshots taken by Hubstaff, on custom screenshots taken from your collection folder in real time
 
+# Usage
 ### create_collection.py
 Creates a collection folder with screenshots and thumbnails from the target folder with custom screenshots.
 
